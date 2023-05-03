@@ -1,12 +1,3 @@
-# Copyright ©️ 2022 Sanila Ranatunga. All Rights Reserved Modified By ©️ Team Alexa
-""""
-Alexa is a Telegram Audio and video streaming bot 
-Copyright (c) 2023 -present Team=Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want.
-"""
-
 import os
 import re
 import asyncio
@@ -43,8 +34,8 @@ async def upload_text_telegraph(client, message: Message):
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdatest")
+                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/BlackWorldMF"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/TheBothub")
                 ],
                 [
                     InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -52,7 +43,7 @@ async def upload_text_telegraph(client, message: Message):
             ]
         )        
         await msg.edit_text(
-            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
+            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://t.me/TheBothub style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ</a></center>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     except Exception as e:
