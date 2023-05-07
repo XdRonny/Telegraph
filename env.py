@@ -1,22 +1,14 @@
-""""
-Alexa is a Telegram Audio and video streaming bot 
-Copyright (c) 2023 -present Team=Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want.
-"""
-
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "")
-LOG_ID = int(os.getenv("LOG_ID", ""))
+API_ID = os.getenv("API_ID", "7286754").strip()
+API_HASH = os.getenv("API_HASH", "ea32d6cdb32f751aca22f05fdea1d3a8").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6155385003:AAFFjnpIA7ApWLi63ImlP2yk7_TCX36ph2s").strip()
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://Anjani:Anjani@cluster0.421tvtn.mongodb.net/?retryWrites=true&w=majority").strip()
+MUST_JOIN = os.getenv("MUST_JOIN", "TheBotHub")
+LOG_ID = int(os.getenv("LOG_ID", "-1001862524511"))
 
 if not API_ID:
     print("No API_ID found. Exiting...")
